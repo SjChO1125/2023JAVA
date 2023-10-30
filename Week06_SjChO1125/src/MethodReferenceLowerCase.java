@@ -16,7 +16,7 @@ public class MethodReferenceLowerCase {
 		Function<String,String> function1=(name)->name.toLowerCase();
 		ArrayList<String> collect1=listOfNames.stream().map(function1)
 		.collect(Collectors.toCollection(ArrayList::new));
-		System.out.println(collect1);
+		System.out.println(collection1);
         
 	}
 
