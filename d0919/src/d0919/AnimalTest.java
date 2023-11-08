@@ -1,4 +1,4 @@
-package Week03_SjChO1125;
+package d0919;
 
 interface Animal{
 	void walk();
